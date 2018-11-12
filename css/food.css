@@ -1,0 +1,253 @@
+/*
+* @Author: asu
+* @Date:   2018-11-07 11:07:10
+* @Last Modified by:   asu
+* @Last Modified time: 2018-11-12 16:07:21
+*/
+
+.top{
+	width: 7.5rem;
+	height: 1rem;
+	background: #74e6cc;
+	padding-top: 0.3rem;
+}
+input{
+	display: block;
+	width: 4.42rem;
+	height: 0.4rem;
+	background: white;
+	border-radius: 0.2rem;
+	border: 0;
+	margin-left: 1.16rem;
+	text-align: center;
+	font-size: 0.2rem;
+	background-image: url('../img/sosuo.png');
+	background-size: 0.3rem;
+	background-repeat: no-repeat;
+	background-position: 4rem 0.05rem ;
+	float: left;
+	line-height: 0.4rem;
+}
+
+::-webkit-input-placeholder{
+	color: #74e6cc;
+}
+.share{
+	width: 0.4rem;
+	height: 0.4rem;
+	background: white;
+	border-radius: 50%;
+	float: right;
+	margin-right: 0.74rem;
+	background-image: url('../img/share.png');
+	background-size: 0.35rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.banner{
+	width: 7.02rem;
+	height: 2.5rem;
+	margin: 0.25rem  0.24rem;
+	background-image: url('../img/makalong.jpg');
+	position: relative;
+}
+.banner .banne{
+	width: 1.75rem;
+	height: 0.18rem;
+	position: absolute;
+	bottom: 0.12rem;
+	left: 2.9rem;
+}
+.banner .banners{
+	width: 0.18rem;
+	height: 0.18rem;
+	background: white;
+	float: left;
+	border-radius: 50%;
+	margin-right: 0.07rem;
+}
+.banner .banners:nth-child(5){
+	margin-right: 0rem;
+}
+.cate{
+	width: 7.02rem;
+	height: 3.66rem;
+	margin: 0.25rem  0.24rem;
+}
+.cate .more{
+	width: 1.23rem;
+	height: 1.62rem;
+	float: left;
+	margin-right: 0.7rem;
+	margin-bottom: 0.21rem;
+}
+.cate .more:nth-child(4){
+	margin-right: 0rem;
+}
+.cate .more:nth-child(8){
+	margin-right: 0rem;
+}
+.cate .mores{
+	display: block;
+	width:  1.24rem;
+	height: 1.24rem;
+	margin-bottom: 0.12rem;
+}
+.cate .moress{
+	font-size: 0.2rem;
+	text-align: center;
+	font-weight: normal;
+	color: #aaa;
+}
+.navg{
+	width: 7.02rem;
+	height: 2.34rem;
+	margin: 0rem  0.24rem 0.6rem;
+	background-image: url('../img/timg (3).jpg');
+	background-size: 100%;
+	background-position: center;
+}
+.navNav{
+	width: 7.02rem;
+	height: 1.68rem;
+	margin: 0rem  0.24rem ;
+}
+.navs{
+	width: 4.26rem;
+	height: 1.57rem;
+	display: block;
+	margin: 0 auto;
+}
+.sort{
+	width: 7.02rem;
+	height: 0.48rem;
+}
+.sorts{
+	width: 0.94rem;
+	height: 0.32rem;
+	float: left;
+	margin-left: 0.35rem;
+	border-radius: 0.16rem;
+	border: 0.01rem solid #74e6cc;
+	text-align: center;
+	font-size: 0.2rem;
+	color: #74e6cc;
+	line-height: 0.32rem;
+}
+.sort .sorts:nth-child(1){
+	border: 0;
+	background: #74e6cc;
+	color: #fff;
+}
+.shop{
+	width: 7.02rem;
+	height: 1.8rem;
+	margin: 0  0.24rem  0.24rem;
+	box-shadow: 0 0.06rem 0.07rem  0.01rem rgb(0, 0, 0, 0.4	);
+}
+.shop .shopt{
+	display: block;
+	width: 1.7rem;
+	height: 1.26rem;
+	float: left;
+	margin: 0.25rem 0.2rem;
+}
+.shop .right{
+	width: 4.9rem;
+	height:1.8rem;
+	float: right;
+}
+.shop .shoT{
+	height: 0.3rem;
+	float: left;
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	margin-top: 0.2rem;
+}
+.shop .shots{
+	width: 100%;
+	height: 0.37rem;
+	float: left;
+	line-height: 0.37rem;
+	font-size: 0.16rem;
+	border-bottom: 0.01rem dashed #aeadad;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	margin-top: 0.05rem;
+}
+.shop .shol{
+	float: left;
+	font-size: 0.2rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	margin-top: 0.05rem;
+}
+.shop .shopl{
+	width: 4.92rem;
+	height: 0.35rem;
+	float: left;
+	font-size: 0.2rem;
+}
+.shop .shopp{
+	width: 100%;
+	height: 100%;
+}
+.shop .shopb{
+	width: 1.45rem;
+	height: 0.35rem;
+	float: left;
+	margin-right: 0.25rem;
+	line-height: 0.35rem;
+	margin-top: 0.08rem;
+}
+.shop .shopb:nth-child(3){
+	margin-right: 0;
+}
+.icon{
+	width: 0.35rem;
+	height: 0.35rem;
+}
+.kuai{
+	width: 7.5rem;
+	height: 0.7rem;
+	margin-top: 0.2rem;
+}
+.bottom{
+	width: 7.5rem;
+	height: 0.8rem;	
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	text-align: center;
+	background: white;
+	/* padding-top: 0.05rem; */
+	box-shadow: 0 0.06rem 0.07rem  0.1rem rgba(0, 0, 0, 0.4	);
+}
+.bottoms{
+	width: 25%;
+	height: 0.8rem;
+	float: left;
+	font-size: 0.15rem;
+}
+.bottoms:nth-child(4){
+	margin-right: 0;
+}
+.icont{
+	width: 0.42rem;
+	height: 0.42rem;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.05rem;
+
+}
+.bos{
+	display: block;
+	width: 25%;
+	height: 0.8rem;
+	float: left;
+	font-size: 0.15rem;
+}

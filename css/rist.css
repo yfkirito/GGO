@@ -1,0 +1,252 @@
+/*
+* @Author: asu
+* @Date:   2018-11-08 10:38:27
+* @Last Modified by:   asu
+* @Last Modified time: 2018-11-10 13:50:18
+*/
+.top{
+	width: 100%;
+	height: 3.1rem;
+	background-image: url('../img/QJ6934264435.png');
+	background-position: left;
+	overflow: hidden;
+	padding: 0 0.24rem;
+}
+.top .top1{
+	width: 100%;
+	height: 0.45rem;
+	margin-top: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+}
+.top .pic{
+	width: 0.44rem;
+	height: 0.44rem;
+	background: white;
+	border-radius: 50%;
+	line-height: 0.44rem;
+	text-align: center;
+	font-size: 0.2rem;
+}
+.iconfont{
+	font-size: 0.25rem;
+	color: #74e6cc;
+}
+.top .center{
+	width: 1rem;
+	height: 0.44rem;
+	text-align: center;
+	font-size: 0.24rem;
+	color: white;
+}
+.top .pics{
+	width:100%;
+	height: 2.4rem;
+	padding-top: 1.02rem;
+	display: flex;
+	justify-content: space-between;
+}
+.top .pict{
+	width: 1.64rem;
+	height: 1.08rem;
+	background: black;
+	background-image: url('../img/b029d12f72c524509219053ef0c9220b.jpg');
+	background-size: 100%;
+	background-position: center;
+}
+.top .picts{
+	width: 5.15rem;
+	height: 1.2rem;
+	display: flex;
+	flex-direction: column;
+  	justify-content: space-between;
+}
+.top .pic1{
+	font-size: 0.18rem;
+	color: #faf7f7;
+}
+.maint{
+	width: 100%;
+	height: 1.25rem;
+	padding: 0.64rem 0.24rem 0.24rem;
+	display: flex;
+	justify-content: space-between;
+}
+.maint .maints{
+	font-size: 0.26rem;
+	padding-bottom: 0.2rem;
+}
+.maint .active{
+	font-size: 0.26rem;
+	border-bottom: 0.01rem solid #74e6cc;
+}
+.main{
+	width: 100%;
+	height: 7.1rem;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+}
+.main .more{
+	width: 1rem;
+	height: 2.91rem;
+}
+.main .nav{
+	width: 5.8rem;
+	height: 6.5rem;
+	overflow: auto;
+/* 	display: flex;
+  	flex-direction: column;
+ 	justify-content: space-between; */
+}
+.main .more li{
+	width: 100%;
+	height: 0.46rem;
+	font-size: 0.22rem;
+	text-align: center;
+	margin-bottom: 0.03rem;
+	background: #e9e9e9;
+	line-height: 0.46rem;
+}
+.main .more .active{
+	background: #74e6cc;
+	color: #fff;
+}
+.main .navs{
+	width: 100%;
+	height: 1.57rem;
+	border-radius: 0.1rem;
+	border: 0.01rem solid #e9e9e9;
+	padding-left: 0.22rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.24rem;
+}
+.main .food{
+	width: 1.25rem;
+	height: 1.05rem;
+	background-image: url('../img/timg (7).jpg');
+	background-size: 100%;
+}
+.main .foods{
+	width: 1.25rem;
+	height: 1.05rem;
+	background-image: url('../img/timg (9).jpg');
+	background-position: center;
+	background-size: 100%;
+}
+.main .foodss{
+	width: 1.25rem;
+	height: 1.05rem;
+	background-image: url('../img/timg (8).jpg');
+	background-position: center;
+	background-size: 100%;
+}
+.main .foodsss{
+	width: 1.25rem;
+	height: 1.05rem;
+	background-image: url('../img/timg (10).jpg');
+	background-position: center;
+	background-size: 100%;
+}
+.main .tea{
+	width: 3.66rem;
+	height: 100%;
+}
+.main .tea1{
+	width: 3.5rem;
+	height: 0.52rem;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.18rem;
+}
+.main .tea1s{
+	font-size: 0.26rem;
+
+}
+.main .tea1t{
+	font-size: 0.26rem;
+	color: #8e8d8d;
+}
+.main .tea2{
+	width: 3.5rem;
+	height: 0.37rem;
+	text-align: center;
+	line-height: 0.37rem;
+	font-size: 0.2rem;
+	color: #8e8d8d;
+	border-bottom: 0.02rem dotted #000;
+}
+.main .tea3{
+	width: 3.5rem;
+	height: 0.66rem;
+	padding-top: 0.3rem;
+	display: flex;
+	justify-content: space-between;
+}
+.main .tea31{
+	font-size: 0.26rem;
+	color: red;
+}
+.main .tea .greentea{
+	width: 0.35rem;
+	height: 0.35rem;
+	background-image: url('../img/jia.png');
+	background-size: 100%;
+}
+.bottm{
+	width: 100%;
+	height: 0.97rem;
+	display: flex;
+	background: white;
+	justify-content: space-between;
+	box-shadow: 0 0 0.07rem  0.01rem #74e6cc;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+.bottom{
+	width: 25%;
+	height: 0.97rem;
+	font-size: 0.26rem;
+	color: #74e6cc;
+	line-height: 0.97rem;
+	text-align: center;
+}
+.bottomss{
+	width: 25%;
+	height: 0.97rem;
+	font-size: 0.26rem;
+	color: #74e6cc;
+	line-height: 0.97rem;
+	text-align: center;
+	box-shadow: 0 0 0.07rem  0.01rem #74e6cc;
+	border-radius: 0.1rem;
+}
+.bottoms{
+	width: 50%;
+	height: 100%;
+	padding-left: 0.7rem;
+	padding-top: 0.2rem;
+}
+.bot{
+	width: 0.72rem;
+	height: 0.72rem;
+	border-radius: 50%;
+	float: right;
+	margin-top: 0.15rem;
+}
+.bots{
+	font-size: 0.2rem;
+	color: #74e6cc;
+}
+img{
+	height: 0.6rem;
+	width: 0.72rem;
+}
+.kon{
+	width: 100%;
+	height: 0.5rem;
+	background: white;
+}

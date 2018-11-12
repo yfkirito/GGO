@@ -1,0 +1,139 @@
+/*
+* @Author: asu
+* @Date:   2018-11-10 21:58:08
+* @Last Modified by:   asu
+* @Last Modified time: 2018-11-12 15:53:47
+*/
+body,html{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.whole{
+	width: 100%;
+	height: 12.85rem;
+	background-image: url('../img/juxin.png');
+	background-position: right;
+	background-size: 140%;
+	background-position: -1.4rem -0.5rem;
+	padding:4.85rem 0.24rem 0 ;
+	position: relative;
+}
+.whole .loding{
+	display: block;
+	width: 1.3rem;
+	height: 0.62rem;
+	background: #74e6cc;
+	position: absolute;
+	right: 0.24rem;
+	top: 0.5rem;
+	border-radius: 0.5rem;
+	text-align: center;
+	line-height: 0.62rem;
+	color: #fff;
+	font-size: 0.22rem;
+}
+.whole .por{
+	width: 1.93rem;
+	height: 1.93rem;
+	position: absolute;
+	left: 2.8rem;
+	top: 3.5rem;
+	border-radius: 50%;
+	background-image: url('../img/f597b8bccdfdb73041ac4c68e8ea137e10124f7a2cf8-CwfPXc_fw658.png');
+	background-position: center;
+	background-size: 100%;
+}
+.whole .login{
+	width: 7.02rem;
+	height: 6.68rem;
+	background: white;
+	border-radius: 0.2rem;
+}
+h6{
+	color: #74e6cc;
+	font-size: 0.3rem;
+	text-align: center;
+	padding-top: 0.8rem;
+	font-weight: normal;
+}
+h5{
+	color: #74e6cc;
+	font-size: 0.4rem;
+	text-align: center;
+	padding-top: 0.32rem;
+	font-weight: normal;
+	margin-bottom: 0.72rem;
+}
+li{
+	width: 100%;
+	height: 0.66rem;
+	display: flex;
+	padding-left: 0.28rem;
+	line-height: 0.66rem;
+}
+.whole .psw{
+	width: 100%;
+	height: 0.66rem;
+	display: flex;
+	padding-left: 0.28rem;
+	line-height: 0.66rem;
+	margin-top: 0.5rem;
+}
+.whole .mi{
+	width: 2.9rem;
+	height: 0.4rem;
+	border: none;
+	border-bottom: 0.04rem solid #74e6cc;
+	margin-left: 0.16rem;
+}
+.iconfont{
+	font-size: 0.5rem;
+	color: #74e6cc;
+}
+p{
+	font-size: 0.22rem;
+	color: #74e6cc;
+}
+.whole .pwd{
+	width: 1.58rem;
+	height: 0.4rem;
+	background: #74e6cc;
+	margin-top: 0.15rem;
+	margin-left: 0.22rem;
+	border-radius: 0.2rem;
+	text-align: center;
+	color: #fff;
+	line-height: 0.4rem;
+	font-size: 0.22rem;
+}
+.whole .yan{
+	width: 1000%;
+	height: 0.36rem;
+	padding-left: 0.9rem;
+	font-size: 0.22rem;
+	color: #5b5e5d;
+	margin-top: 0.25rem;
+}
+.icon-gantanhao{
+	color: #5b5e5d;
+	font-size: 0.22rem;
+}
+.whole .bottom{
+	width: 100%;
+	height: 1.33rem;
+	display: flex;
+	justify-content: center;
+}
+.whole .bottom .bott{
+	display: block;
+	width: 1.8rem;
+	height: 0.58rem;
+	background: #5b5e5d;
+	border-radius: 0.5rem;
+	margin-top: 0.6rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.58rem;
+	font-size: 0.22rem;
+}

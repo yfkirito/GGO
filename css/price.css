@@ -1,0 +1,198 @@
+/*
+* @Author: asu
+* @Date:   2018-11-11 00:50:01
+* @Last Modified by:   asu
+* @Last Modified time: 2018-11-12 15:07:38
+*/
+.nav{
+	width: 100%;
+	height: 1.6rem;
+	background: yellow;
+	background: #74e6cc;
+	padding: 0 0.24rem;
+	margin-bottom: 1.7rem;
+	position: relative;
+}
+ .nav .photo{
+	width: 7.02rem;
+	height: 2rem;
+	background: #fff;
+	border-radius: 0.2rem;
+	box-shadow:0 0 0.05rem 0.01rem #74e6cc;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	top: 1.17rem;
+	left: 0.24rem;
+}
+.nav .navs{
+	width: 100%;
+	height: 1.14rem;
+	display: flex;
+	justify-content: space-between;
+}
+.nav .navss{
+	width: 2.8rem;
+	height: 100%;
+	text-align: center;
+	padding-top: 0.25rem;
+}
+
+.nav .pic{
+	display: block;
+	width: 0.44rem;
+	height: 0.44rem;
+	background: white;
+	border-radius: 50%;
+	line-height: 0.45rem;
+	text-align: center;
+	font-size: 0.1rem;
+	margin-top: 0.35rem;
+}
+h1{
+	font-size: 0.35rem;
+	font-weight: normal;
+	color: #fff;
+}
+h2{
+	font-size: 0.35rem;
+	font-weight: normal;
+	color: #fff;
+	margin-bottom: 0.1rem;
+}
+.nav .photo .pics{
+	width: 1.36rem;
+	height: 1.36rem;
+	background-image: url('../img/fw658.png');
+	margin-left: 0.25rem;
+	background-size: 100%;
+}
+.nav .photo .picss{
+	width: 5.4rem;
+	height: 1.55rem;
+}
+.nav .photo .picss .word{
+	width: 5rem;
+	height: 0.36rem;
+	font-size: 0.2rem;
+	color: #333;
+	margin-left: 0.22rem;
+	font-weight: bold;
+}
+.icon-shezhi2{
+	font-size: 0.3rem;
+	color: #74e6cc;
+}
+.icon-duihua{
+	font-size: 0.3rem;
+	color: #74e6cc;
+}
+.nav .wood{
+	font-size: 0.16rem;
+	color: #fff;
+	margin-left: 0.22rem;
+	margin-bottom: 0.1rem;
+	color: #333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+}
+.nav .words{
+	font-size: 0.16rem;
+	color: #fff;
+	margin-left: 0.2rem;
+	color: #333;
+	margin-bottom: 0.1rem;
+}
+.nav .words1{
+	font-size: 0.16rem;
+	color: #fff;
+	margin-left: 0.2rem;
+	color: #333;
+}
+.icon-position-o{
+	font-size: 0.2rem;
+	color: #74e6cc;
+}
+.icon-shouji{
+	font-size: 0.2rem;
+	color: #74e6cc;
+}
+.back{
+	width: 100%;
+	height: 8.22rem;
+}
+.back li{
+	width: 100%;
+	height: 1.37rem;
+	box-shadow: 0 0 0.05rem 0.01rem #74e6cc;
+	line-height: 1.37rem;
+	font-size: 0.3rem;
+	color: #74e6cc;
+	padding-left: 0.2rem;
+}
+.back .iconfont{
+	font-size: 0.4rem;
+	color: #74e6cc;
+	padding-right: 0.1rem;
+	line-height: 1.37rem;
+}
+.icon-dui{
+	float: right;
+}
+.back .eat{
+	width: 0.5rem;
+	height: 0.31rem;
+	background: red;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.31rem;
+	border-radius: 0.2rem;
+	float: right;
+	color: #fff;
+	margin-top: 0.5rem;
+	margin-right: 0.1rem;
+}
+.liu{
+	width: 100%;
+	height: 0.35rem;
+	background: #fff;
+	margin-top: 0.05rem;
+}
+.bottom{
+	width: 7.5rem;
+	height: 0.8rem;	
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	text-align: center;
+	background: white;
+	/* padding-top: 0.05rem; */
+	box-shadow: 0 0.06rem 0.07rem  0.09rem rgba(0, 0, 0, 0.3);
+}
+.bottoms{
+	width: 25%;
+	height: 0.8rem;
+	float: left;
+	font-size: 0.15rem;
+}
+.bottoms:nth-child(4){
+	margin-right: 0;
+}
+.icont{
+	width: 0.42rem;
+	height: 0.42rem;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.05rem;
+
+}
+.bos{
+	width: 25%;
+	height: 0.8rem;
+	float: left;
+	font-size: 0.15rem;
+}
